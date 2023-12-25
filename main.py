@@ -16,7 +16,7 @@ ax.legend(title='Fruit color')
 plt.savefig('bars.png', bbox_inches='tight')
 
 cat = ["bored", "happy", "happy", "happy", "happy", "bored"]
-dog = ["bored", "bored", "bored", "happy", "bored", "bored"]
+dog = ["happy", "bored", "happy", "happy", "bored", "happy"]
 activity = ["combing", "drinking", "feeding", "napping", "playing", "washing"]
 
 fig, ax = plt.subplots()
